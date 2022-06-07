@@ -420,8 +420,8 @@ p {
 }
 
 .navbar-nav {
-  margin: 7.5px -10px;
-}
+  margin: 45px -10px;
+} /* Ajuste na margem-top do conjunto dos botões de navegação */
 
 .navbar-default .navbar-nav > li > a {
   color: #060606;
@@ -1121,6 +1121,7 @@ span.percentfactor {
 .progress-meta {
   overflow: hidden;
 }
+
 h6.progress-title, h6.progress-value {
   color: #676767;
   font-size: 13px;
