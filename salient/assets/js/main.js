@@ -177,7 +177,7 @@ $(document).ready(function($) {
 
 
     /* ==============================================
-    Contact Form
+    Formulário de Contato
     =============================================== */
 
     $('#contactform').submit(function(){
@@ -199,7 +199,7 @@ $(document).ready(function($) {
             function(data){
                 document.getElementById('alert').innerHTML = data;
                 $('#alert').slideDown('slow');
-                $('#contactform img.contactloader').fadeOut('slow',function(){$(this).remove();});
+                $('#contactform img.contactloader').fadeOut('slow',function(){ $(this).remove(); });
                 $('#submit').removeAttr('disabled');
                 if(data.match('success') !== null) {
                     $('#name').val('');
