@@ -271,7 +271,7 @@ p {
   color: #fff;
   background-color: #000;
   border-color: #000;
-}
+} /* Botão da sesão contatoi que foi alterado para black */
 
 .btn-black:hover {
   background-color: #bf2728;
@@ -403,7 +403,7 @@ p {
 *************************************************************************/
 
 .navbar-default {
-  background: #fff;
+  background: rgb(255, 255, 255); /* Cor referente ao cabeçalho hearder */
   border: none;
   width: 100%;
   height: 150px;
@@ -922,9 +922,9 @@ a:hover .overlay {
 /***********************************************************************************************/
 
 .clients-bg {
-  background: url('../images/foto_band1.png') center top;
+  background: url('../images/Group5.png') center top;
   position: relative;
-  padding: 120px 0;
+  padding: 80px 0;
 }
 
 .clients-bg:before {
