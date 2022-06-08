@@ -497,7 +497,7 @@ p {
 }
 
 .home-hero {
-  background: url('../images/hero-bg/home.jpg');
+  
   background-size: cover;
 }
 
@@ -517,7 +517,7 @@ p {
 }
 
 .home-hero-2 {
-  background: url('../images/hero-bg/home-2.jpg');
+
   background-size: cover;
 }
 
@@ -537,7 +537,7 @@ p {
 }
 
 .home-hero-3 {
-  background: url('../images/hero-bg/home-3.jpg');
+  
   background-size: cover;
 }
 
@@ -557,7 +557,7 @@ p {
 }
 
 .home-hero-4 {
-  background: url('../images/hero-bg/home-4.jpg');
+
   background-size: cover;
 }
 
@@ -622,7 +622,7 @@ ul.caption-slides li {
 /***********************************************************************************************/
 
 .about-hero {
-  background: url('../images/hero-bg/about.jpg');
+  
   background-size: cover;
 }
 
@@ -964,7 +964,7 @@ a:hover .overlay {
 /***********************************************************************************************/
 
 #statistic-section {
-  background: url('../images/temp/foto_band_1.png') center top;
+ 
   position: relative;
   text-align: center;
   padding-top: 70px;
@@ -1174,7 +1174,7 @@ h6.progress-value {
 /***********************************************************************************************/
 
 .services-hero {
-  background: url('../images/hero-bg/services.jpg');
+
   background-size: cover;
 }
 
@@ -1213,7 +1213,7 @@ h6.progress-value {
 }
 
 #banner-services {
-  background: url('../images/banner\ mixCat01\ 1\ 1.png') center top;
+
   position: relative;
   border-bottom: 1px solid transparent;
 }
@@ -1369,7 +1369,7 @@ ul.price-table li .btn {
 /***********************************************************************************************/
 
 .portfolio-hero {
-  background: url('../images/hero-bg/02.jpg');
+  
   background-size: cover;
 }
 
@@ -1441,7 +1441,7 @@ ul.filter-list li:last-child a:after {
 /***********************************************************************************************/
 
 #tweet-section {
-  background: url('../images/banner\ about\ 2.png') center top;
+  
   position: relative;
   padding: 80px 0;
 }
@@ -1622,7 +1622,7 @@ textarea.form-control {
 #project-head-section {
   padding: 80px 0;
   position: relative;
-  background: url('../images/temp/head.jpg');
+
 }
 
 #project-head-section:before {
@@ -1786,10 +1786,10 @@ ul.details-list li:last-child {
   z-index: 1;
 }
 
-.landing-hero {
+.landing-hero { /* Banners grandes do body */
   background: url('../images/banner1\ 1\ 1.png');
   background-size: cover;
-  background: url('../images/banner\ 2\ 1.png');
+ /*  background: url('../images/banner\ 2\ 1.png'); */
   background-size: cover;
 }
 
