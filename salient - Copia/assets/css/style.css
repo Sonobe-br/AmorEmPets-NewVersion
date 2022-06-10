@@ -76,11 +76,19 @@ body {
   position: relative;
 }
 
+.about-text1 {
+  position: relative;
+  font-size: 15px;
+  text-align: justify;
+  margin-bottom: -75px;
+}
+
 .about-text {
+  position: relative;
   font-size: 15px;
   text-align: justify;
 }
-.about-text1 {
+/* .about-text1 {
   position: relative;
   font-size: 15px;
   text-align: justify;
@@ -97,7 +105,7 @@ body {
   font-size: 15px;
   text-align: justify;
   left: 100px;
-}
+} */
 
 a {
   color: #bf2728;
