@@ -238,6 +238,7 @@ p {
 .box-organizer {
 position: relative;
 left: 100px;
+top: 120px;
 
 } /*********************************************************************************************
   positionamento da caixa organizadora 
@@ -1834,9 +1835,9 @@ ul.details-list li:last-child {
 }
 
 .landing-hero { /* Banners grandes do body */
-  background: url('../images/banner1\ 1\ 1.png');
+  background: url('../images/foto_band_02.png');
   background-size: cover;
- /*  background: url('../images/banner\ 2\ 1.png'); */
+  /* background: url('../images/foto_band_03.png'); */
   background-size: cover;
 }
 
