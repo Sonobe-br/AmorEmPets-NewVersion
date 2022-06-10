@@ -2079,8 +2079,8 @@ ul.features-list li {
 ----------------------*/
 
 #testimonials-section {
-  padding: 80px 0;
-  text-align: center;
+  padding: 90px 0;
+  text-align:center;
 
 }
 
@@ -2091,10 +2091,10 @@ ul.testimonials-slider {
 }
 
 ul.testimonials-slider li img {
-  -webkit-border-radius: 50%;
+/*   -webkit-border-radius: 50%;
      -moz-border-radius: 50%;
        -o-border-radius: 50%;
-          border-radius: 50%;
+          border-radius: 50%; */
   margin-bottom: 35px;
   display: inline-block;
 }
@@ -2126,16 +2126,16 @@ ul.testimonials-slider li p {
   color: #bf2728;
   width: 30px;
   height: 30px;
-  border: 1px solid #bf2728;
+  /* border: 0px solid #bf2728; */
   text-align: center;
-  -webkit-border-radius: 50%;
+  /* -webkit-border-radius: 50%;
      -moz-border-radius: 50%;
-          border-radius: 50%;
-  -webkit-transition: all .3s ease-in-out;
-  -moz-transition: all .3s ease-in-out;
-  -ms-transition: all .3s ease-in-out;
-  -o-transition: all .3s ease-in-out;
-  transition: all .3s ease-in-out;
+          border-radius: 50%; */
+  -webkit-transition: all .1s ease-in-out;
+  -moz-transition: all .1s ease-in-out;
+  -ms-transition: all .1s ease-in-out;
+  -o-transition: all .1s ease-in-out;
+  transition: all .1s ease-in-out;
 }
 
 .testimonials-carousel a.bx-next:hover, .testimonials-carousel a.bx-prev:hover {
@@ -2845,7 +2845,7 @@ ul.download li a img {
 /***********************************************************************************************/
 
 .soon-hero {
-  background: url('../images/temp/stats-bg.jpg');
+
   background-size: cover;
 }
 
@@ -2899,7 +2899,7 @@ ul.download li a img {
 /***********************************************************************************************/
 
 .personal-hero {
-  background: url('../images/hero-bg/personal.jpg');
+  
   background-size: cover;
 }
 
