@@ -1973,10 +1973,14 @@ ul.features-list li {
 
 .newsletter-title {
   margin-bottom: 30px;
+
 }
 
 .newsletter-title h4 {
   font-weight: 400;
+  font-size: 16px;
+  text-align: justify;
+  
 }
 
 .newsletter-field {
