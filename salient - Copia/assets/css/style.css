@@ -1978,7 +1978,7 @@ ul.features-list li {
 
 .newsletter-title h4 {
   font-weight: 400;
-  font-size: 16px;
+  font-size: 14px;
   text-align: justify;
   
 }
@@ -2970,8 +2970,11 @@ ul.footer-social-links li a:hover:after {
 
 p.copyright {
   position: absolute;
-  padding-top: 40px;
-  right: 18%;
+  font-size: 10px;
+  padding-top: 60px;
+  padding-bottom: 30px;
+  right: 25%;
+  
 }
 
 /***********************************************************************************************/
