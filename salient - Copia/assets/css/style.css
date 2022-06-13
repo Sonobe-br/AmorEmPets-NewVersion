@@ -2965,9 +2965,9 @@ ul.footer-social-links li a:hover:after {
 }
 
 p.copyright {
-  position: relative;
+  position: absolute;
   padding-top: 40px;
-  right: -12%;
+  right: 18%;
 }
 
 /***********************************************************************************************/
