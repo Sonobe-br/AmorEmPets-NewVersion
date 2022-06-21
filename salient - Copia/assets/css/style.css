@@ -2803,19 +2803,23 @@ ul.download li a img {
 .soon-countdown > * {
   text-align: center;
 }
+
 .soon-countdown div {
   display: inline-block;
 }
+
 .soon-countdown div span {
   width: 150px;
   display: block;     
 }
+
 .soon-countdown div span:first-child {
   height: 78px;
   font-weight: 300;
   font-size: 6em;
   line-height: 64px;
 }
+
 .soon-countdown div span:last-child {
   height: 20px;
   font-weight: 300;
