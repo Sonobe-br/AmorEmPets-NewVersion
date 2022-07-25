@@ -31,9 +31,7 @@ body {
 }
 
 .patinha {
-
-    border: none;
-
+background-image: inherit;    
 }
 
 .form__title {
@@ -209,8 +207,7 @@ p.copyright {
     top: 100px;
     color: rgb(0, 0, 0);
     font-size: 12px;
-
-}
+} 
 
 .belt-end {
     display: flex;

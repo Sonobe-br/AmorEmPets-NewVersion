@@ -159,10 +159,10 @@ position: relative;
 left: 100px;
 top: 120px;
 
-} /*********************************************************************************************
-  positionamento da caixa organizadora 
-  **********************************************************************************************/
-
+} 
+/*********************************************************************************************
+positionamento da caixa organizadora 
+**********************************************************************************************/
 .predio-band {
   position: relative;
   padding: 2px 0;
@@ -171,13 +171,9 @@ top: 120px;
   width: 50%;
   height: 50%;
 }
-
-
-
 /***********************************************************************************************/
 /* =Buttons */
 /***********************************************************************************************/
-
 .btn {
   font-size: 13px;
   letter-spacing: 1px;
@@ -189,32 +185,27 @@ top: 120px;
        -o-transition: all .25s ease-in-out;
           transition: all .25s ease-in-out;
 }
-
 .btn:active, .btn.active {
   outline: 0;
   background-image: none;
   -webkit-box-shadow: none;
           box-shadow: none;
 }
-
 .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:active.focus, .btn.active.focus {
   outline: 0;
 }
-
 .btn-primary:hover, .btn-primary:focus, .btn-primary.focus, 
 .btn-primary:active, .btn-primary.active, .open>.dropdown-toggle.btn-primary {
   color: #fff;
   background-color: #000;
   border-color: #000;
 }
-
 .btn-xs {
   padding: 5px 14px;
   font-size: 11px;
   text-transform: uppercase;
   letter-spacing: 2px;
 }
-
 .btn-sm {
   padding: 8px 37px;
   font-size: 12px;
@@ -222,49 +213,40 @@ top: 120px;
      -moz-border-radius: 2px;
           border-radius: 2px;
 }
-
 .btn-lg {
   padding: 15px 35px;
 }
-
 .btn-primary {
   text-transform: uppercase;
   background-color: #bf2728;
   border-color: #bf2728;
 }
-
 .btn-black {
   text-transform: uppercase;
   color: #fff;
   background-color: #000;
   border-color: #000;
 } /* Botão da sesão contatoi que foi alterado para black */
-
 .btn-black:hover {
   background-color: #bf2728;
   border-color: #bf2728;
   color: #fff;
 }
-
 .btn-clean {
   border-color: #F5F5F5;
   color: #F5F5F5;
   text-transform: uppercase;
   letter-spacing: 0;
 }
-
 .btn-clean:hover, .btn-clean:focus, .btn-clean:active {
   color: #fff;
 }
-
 .btn-black {
   border-color: #0000;
   color: #ffff;
   text-transform: uppercase;
   letter-spacing:0;
-
 }
-
 .btn-dark {
   color: #FFF;
   text-transform: uppercase;
@@ -272,19 +254,16 @@ top: 120px;
   font-weight: 400;
   border-color: rgba(0,0,0, .7);
 }
-
 .btn-dark:hover, .btn-dark:active, .btn-dark:focus, .btn-dark:visited {
   color: rgba(255,255,255, .85);
   background: rgba(0,0,0, .7);
   outline: 0;
   box-shadow: none;
 }
-
 .btn-light {
   background: #f3f3f3;
   color: #000;
 }
-
 .call-btn {
   text-transform: uppercase;
   letter-spacing: 2px;
@@ -295,20 +274,16 @@ top: 120px;
   outline: none;
   display: inline-block;
 }
-
 .btn-gray {
   color: #777;
   background: #e5e5e5;
 }
-
 /***********************************************************************************************/
 /* =Form */
 /***********************************************************************************************/
-
 .form-group {
   margin-bottom: 20px;
 }
-
 .form-control {
   font-size: 12px;
   color: #555;
@@ -327,7 +302,6 @@ top: 120px;
   -ms-transition: all 0.2s cubic-bezier(0.000, 0.000, 0.580, 1.000);
   transition: all 0.2s cubic-bezier(0.000, 0.000, 0.580, 1.000);
 }
-
 .form-control:focus {
   color: #111;
   border-color: rgba(0,0,0, .7);
@@ -336,11 +310,9 @@ top: 120px;
   box-shadow: none;
   outline: none;
 }
-
 /***********************************************************************************************/
 /* =Preloader */
 /***********************************************************************************************/ 
-
 #preloader {
   background-color: #FFF;
   bottom: 0;
@@ -350,7 +322,6 @@ top: 120px;
   top: 0;
   z-index: 999999;
 }
-
 #loading-animation {
   background-image: url("../images/loading.GIF") ;
   opacity: 0.7;
@@ -364,11 +335,9 @@ top: 120px;
   width: 200px;
   border-radius: 4px;
 }
-
 /************************************************************************
 // =Navbar
 *************************************************************************/
-
 .navbar-default {
   background: rgb(255, 255, 255); /* Cor referente ao cabeçalho hearder */
   border: none;
@@ -379,17 +348,14 @@ top: 120px;
   top: 0;
   border-bottom: 2px solid #f0f0f0;
 } /* nessa classe, fiz alteração na altura do cabeçalho */
-
 .navbar.active {
   position: fixed;
   opacity: 0.95;
   border: 1px solid #E8E8E8;
 }
-
 .navbar-nav {
   margin: 48px -10px;
 } /* Ajuste na margem-top do conjunto dos botões de navegação */
-
 .navbar-default .navbar-nav > li > a {
   color: #060606;
   text-transform: uppercase;
@@ -397,20 +363,16 @@ top: 120px;
   -moz-transition: color .3s ease-in-out;
   -ms-transition: color .3s ease-in-out;
   -o-transition: color .3s ease-in-out;
-  transition: color .3s ease-in-out;
-  
+  transition: color .3s ease-in-out; 
 }
-
 .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > 
 .active > a:focus {
   background: transparent;
   color: #bf2728;
 }
-
 .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
   color: #bf2728;
 }
-
 .dropdown-menu {
   top: 117%;
   font-size: 12px;
@@ -421,37 +383,30 @@ top: 120px;
   border-top: 0;
   padding: 12px 5px;
 }
-
 .dropdown-menu>li>a {
   padding: 3px 15px;
   line-height: 1.7;
   letter-spacing: 2px;
 }
-
 .dropdown-menu>li>a:focus, .dropdown-menu>li>a:hover {
   background-color: #fff;
   color: #bf2728;
 }
-
 .navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:focus, .navbar-default .navbar-nav>.open>a:hover {
   background-color: #fff;
   color: #bf2728;
 }
-
 .navbar-default .dropdown:hover>.dropdown-menu {
   display: block;
 }
-
 /***********************************************************************************************/
 /* =Hero section */
 /***********************************************************************************************/
-
 #hero-section {
   position: relative;
   display: table;
   width: 100%;
 }
-
 .home-hero:before {
   position: absolute;
   content: '';
@@ -462,12 +417,10 @@ top: 120px;
   height: 100%;
   z-index: 1;
 }
-
 .home-hero {
   
   background-size: cover;
 }
-
 /***********************************************************************************************/
 /* =Hero section-2 */
 /***********************************************************************************************/
@@ -482,16 +435,13 @@ top: 120px;
   height: 100%;
   z-index: 1;
 }
-
 .home-hero-2 {
 
   background-size: cover;
 }
-
 /***********************************************************************************************/
 /* =Hero section-3 */
 /***********************************************************************************************/
-
 .home-hero-3:before {
   position: absolute;
   content: '';
@@ -502,16 +452,13 @@ top: 120px;
   height: 100%;
   z-index: 1;
 }
-
 .home-hero-3 {
   
   background-size: cover;
 }
-
 /***********************************************************************************************/
 /* =Hero section-4 */
 /***********************************************************************************************/
-
 .home-hero-4:before {
   position: absolute;
   content: '';
@@ -522,16 +469,13 @@ top: 120px;
   height: 100%;
   z-index: 1;
 }
-
 .home-hero-4 {
 
   background-size: cover;
 }
-
 /***********************************************************************************************/
 /* =Home hero */
 /***********************************************************************************************/
-
 .hero-content {
   position: relative;
   display: table-cell;
@@ -542,11 +486,9 @@ top: 120px;
   z-index: 2;
   text-align: center;
 }
-
 .hero-content h1, p.hero {
   color: #fff;
 }
-
 .hero-content h1 {
   font-family: 'Open Sans', sans-serif;
   font-size: 43px;
@@ -554,14 +496,12 @@ top: 120px;
   letter-spacing: 8px;
   text-transform: uppercase;
 }
-
 .div-line {
   width: 50px;
   background-color: #fff;
   height: 3px;
   margin: 20px auto;
 }
-
 p.hero {
   font-family: 'Crimson Text', serif;
   font-style: italic;
@@ -571,28 +511,22 @@ p.hero {
   display: block;
   margin-top: 20px;
 }
-
 .hero-btn {
   margin-top: 50px;
 }
-
 ul.caption-slides {
   padding-left: 0;
 }
-
 ul.caption-slides li {
   text-align: center;
 }
-
 /***********************************************************************************************/
 /* =About Section */
 /***********************************************************************************************/
-
 .about-hero {
   
   background-size: cover;
 }
-
 .about-hero:before {
   position: absolute;
   content: '';
@@ -603,18 +537,15 @@ ul.caption-slides li {
   height: 100%;
   z-index: 1;
 }
-
 #about-us-section {
   padding: 100px 0;
 }
-
 .about-studio h4, .what-do h4, .process-work h4 {
   letter-spacing: 2px;
   font-size: 17px;
   font-weight: 500;
   margin-bottom: 15px;
 }
-
 .btn-link-a {
   cursor: pointer;
   color: rgba(17, 17, 17, 0.9);
@@ -623,35 +554,28 @@ ul.caption-slides li {
   font-weight: 500;
   margin-top: 25px;
 }
-
 .btn-link-a:hover {
   color: #000;
 }
-
 #about-section {
   padding: 110px 0 120px 0!important;
 }
-
 .big-title-sec {
   text-align: center;
   padding-bottom: 100px;
 }
-
-
 .big-title-sec hr {
   border: 1.5px solid #000;
   margin: 30px auto;
   width: 80px!important;
   margin-bottom: 50px;
 }
-
 .big-title-sec .big-title {
   font-weight: 300;
   text-transform: none;
   font-size: 24px;
   color: #000;
 }
-
 .big-title-sec .big-subtitle {
   font-family: 'Raleway', sans-serif;
   letter-spacing: 1.3px;
@@ -665,84 +589,68 @@ ul.caption-slides li {
   position: relative;
   left: 25px;
 }
-
 .big-title-sec p {
   font-size: 16px;
   line-height: 28px;
   letter-spacing: 1.7px;
   font-weight: 300;
 }
-
 .big-title-sec .view-more {
   padding-top: 50px;
 }
-
 .big-title-sec .view-more a.btn-primary {
   margin-right: 2px;
 }
-
 .big-title-sec .view-more a.btn-primary:hover {
   opacity: .8;
   background: #bf2728;
   border: 1px solid #bf2728;
 }
-
 .about-box {
   text-align: center;
 }
-
 .alt-about-icon {
   padding-top: 10px;
   font-size: 44px;
   line-height: 0.9;
   color: #bf2728;
 }
-
 .about-box h4 {
   font-weight: 600;
   letter-spacing: 1.7px;
   padding-top: 15px;
   padding-bottom: 8px;
 }
-
 /***********************************************************************************************/
 /* =Choose Section */
 /***********************************************************************************************/
-
 #choose-section .title-section, #soon-services-section .title-section {
   padding-bottom: 80px;
 }
-
 .choose-image, .soon-services-image {
   text-align: center;
 }
-
 ul.choose-list, ul.soon-list {
   list-style: none;
   padding: 0;
   padding-top: 50px;
 }
-
 ul.choose-list li, ul.soon-list li {
   margin-bottom: 30px;
 }
-
 .iconbox {
   float: left;
   width: 50px;
   height: 50px;
   text-align: center;
 }
-
 .iconbox i {
   font-size: 32px;
   color: #bf2728;
 }
-
 .choose-box-content, .soon-box-content {
   margin-left: 70px;
 }
-
 .choose-box-content h6, .soon-box-content h6 {
   margin-top: 0;
   font-size: 14px;
@@ -750,41 +658,32 @@ ul.choose-list li, ul.soon-list li {
   letter-spacing: 2px;
   margin-bottom: 15px;
 }
-
 /***********************************************************************************************/
 /* =Projects Section */
 /***********************************************************************************************/
-
 #projects-section {
   padding: 100px 0 80px 0!important;
 }
-
 #projects-section .title-section {
   padding-bottom: 80px;
 }
-
 #type-masory {
   width: 100%;
 }
-
 #projects-section #type-masory .project {
   overflow: hidden;
   margin-bottom: 30px;
 }
-
 .project-item a {
   position: relative;
   display: block;
 }
-
 .project-item a img {
   width: 100%;
   height: auto;
   vertical-align: middle;
 }
-
 /*Overlay projects*/
-
 .overlay {
   position: absolute;
   top: 10px;
@@ -799,7 +698,6 @@ ul.choose-list li, ul.soon-list li {
        -o-transition: all .5s ease;
           transition: all .5s ease;
 }
-
 .overlay .overlay-inner {
   position: absolute;
   top: 40%;
@@ -807,7 +705,6 @@ ul.choose-list li, ul.soon-list li {
   text-align: center;
   bottom: 0;
 }
-
 .overlay .overlay-inner h3 {
   color: #F0F0F0;
   margin-bottom: 15px;
@@ -822,7 +719,6 @@ ul.choose-list li, ul.soon-list li {
        -o-transform: translateY(-30px);
           transform: translateY(-30px);
 }
-
 .overlay .overlay-inner p {
   color: #DBDBDB;
   -webkit-transition: all .5s;
@@ -837,7 +733,6 @@ ul.choose-list li, ul.soon-list li {
           transform: translateY(30px);
   margin-bottom: 15px;
 }
-
 a:hover .overlay .overlay-inner h3 {
   -webkit-transform: translateY(0);
      -moz-transform: translateY(0);
@@ -845,7 +740,6 @@ a:hover .overlay .overlay-inner h3 {
        -o-transform: translateY(0);
           transform: translateY(0);
 }
-
 a:hover .overlay .overlay-inner p, a:hover .overlay .overlay-inner span {
   -webkit-transform: translateY(0);
      -moz-transform: translateY(0);
@@ -853,7 +747,6 @@ a:hover .overlay .overlay-inner p, a:hover .overlay .overlay-inner span {
        -o-transform: translateY(0);
           transform: translateY(0);
 }
-
 .overlay-inner span {
   font-size: 42px;
   color: #DBDBDB;
@@ -868,11 +761,9 @@ a:hover .overlay .overlay-inner p, a:hover .overlay .overlay-inner span {
       -ms-transform: translateY(30px);
        -o-transform: translateY(30px);
 }
-
 a:hover .overlay {
   opacity: 1;
 }
-
 .view-more {
   text-align: center;
   padding-top: 60px;
@@ -906,24 +797,19 @@ a:hover .overlay {
   height: 100%;
   z-index: 2;
 }
-
 .clients-bg .container {
   position: relative;
   z-index: 3;
 }
-
 .client {
   padding: 30px;
 }
-
 .client a {
   display: block;
 }
-
 .client a img {
   width: 100%
 }
-
 .client a:hover {
   opacity: .8;
 }
